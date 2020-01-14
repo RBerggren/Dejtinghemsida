@@ -1,0 +1,11 @@
+﻿@using DejtApplication10._0.Models
+@model DejtApplication10._0.Models.RegisterViewModel
+@{
+    ViewBag.Title = "Gå med!";
+}
+
+@Html.Partial("CreateAcc", new AnvändareModel())
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

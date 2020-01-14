@@ -1,0 +1,79 @@
+﻿@model DejtApplication10._0.Models.AnvändareModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View</title>
+</head>
+<body>
+    <div>
+        <h4>AnvändareModel</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Förnamn)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Förnamn)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Efternamn)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Efternamn)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.IsActive)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.IsActive)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.AnvändarNamn)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.AnvändarNamn)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Epost)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Epost)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Lössenord)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Lössenord)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Födelsedatum)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Födelsedatum)
+            </dd>
+
+        </dl>
+    </div>
+ 
+</body>
+</html>
