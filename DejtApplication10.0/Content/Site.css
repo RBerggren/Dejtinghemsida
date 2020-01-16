@@ -22,6 +22,12 @@ select,
 textarea {
     max-width: 280px;
 }
+#ProfilensVänner{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
 
 .start-inner {
     background-color: white;
@@ -29,18 +35,27 @@ textarea {
     color: gray;
     margin-left: 5%;
 }
-    .start-inner:hover {
-        color: black;
-        transform: scale(1.25);
-    }
 
 p.start-inner,
-h3.start-inner{
+h3.start-inner {
     position: relative;
-    
 }
 
 #profil{
     font-size: 105%;
     font-weight: bold;
 }
+
+#inputUserpageID,
+#inputUsername{
+    display: none;
+    visibility: hidden;
+}
+
+
+.Userpage {
+    font-weight: bold;
+}
+
+
+
