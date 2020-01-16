@@ -8,4 +8,17 @@
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $("#Registrera").click(function () {
+            if ($("#file1").get(0).files.length === 0) {
+    alert("Du måste ladda upp en profilbild");
+               
+}
+           
+            });
+
+
+    </script>
+
+    
 }
